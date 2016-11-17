@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: potwatsontest01
+  host: potwatsontest01
+  disk_quota: 1024M
+  services:
+  - potwatsontest01-cloudantNoSQLDB
+  - availability-monitoring-auto
+  - Conversation-wa
+  - Speech To Text-x5
+  - Text to Speech-15
